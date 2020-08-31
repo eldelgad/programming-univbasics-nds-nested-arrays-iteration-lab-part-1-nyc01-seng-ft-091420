@@ -11,7 +11,7 @@ def find_even_values(src)
       
     while even_values < src[row_index].count do
     
-      p src[even_values]
+      p src[row_index][even_values]
       even_values += 1
     
     end
