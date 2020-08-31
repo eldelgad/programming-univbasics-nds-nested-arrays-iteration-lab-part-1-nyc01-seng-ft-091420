@@ -9,10 +9,10 @@ def find_even_values(src)
       
       even_values = 0
       
-    while even_values < src[even_values].count do
+    while even_values < src[row_index].count do
     
-      p src[row_index][even_values]
-      element_index += 1
+      p src[even_values]
+      even_values += 1
     
     end
     
